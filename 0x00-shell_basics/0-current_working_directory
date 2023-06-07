@@ -3,3 +3,4 @@ current_directory=$(pwd)
 absolute_path=($"current_directory")
 echo "This is the absolute path of the current working directory"
 echo "$(absolute_path)"
+
