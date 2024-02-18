@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Replace these variables with your Git username and personal access token
+GIT_USERNAME="spider067"
+ACCESS_TOKEN="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"
+
+# Configure Git to use the credential helper
+git config --global credential.helper store
+
+# Store the credentials
+echo "https://${spider067}:${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}@github.com" > ~/.git-credentials
+
+# Set permissions for the credentials file
+chmod 600 ~/.git-credentials
+
+echo "Git configured with access token successfully."
+
